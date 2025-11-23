@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Predicción de Condición Muscular del Atleta</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>🏋️‍♂️ Predicción de Condición Muscular del Atleta</h1>
+    <p>Ingresa los datos del atleta para analizar su estado físico.</p>
+
+    <form action="/predict" method="POST" class="form-grid">
+        <!-- Columna 1 -->
+        <div class="form-column">
+            <label>IMC</label>
+            <input type="number" step="any" name="IMC" required>
+
+            <label>Indice Braquial (IBB)</label>
+            <input type="number" step="any" name="Indice Braquial (IBB)" required>
+
+            <label>Tibial Lateral</label>
+            <input type="number" step="any" name="TIBIAL LATERAL" required>
+
+            <label>Talla (cm)</label>
+            <input type="number" step="any" name="Talla" required>
+
+            <label>EVALUACIÓN IMC_Grado I de Sobrepeso</label>
+            <input type="number" step="any" name="EVALUACIÓN IMC_Grado I de Sobrepeso" required>
+
+            <label>EVALUACIÓN.1_Metrocórmico Tronco Medio</label>
+            <input type="number" step="any" name="EVALUACIÓN.1_Metrocórmico Tronco Medio" required>
+
+            <label>EVALUACIÓN.10_Bueno</label>
+            <input type="number" step="any" name="EVALUACIÓN.10_Bueno" required>
+
+            <label>EVALUACIÓN.10_Excelente</label>
+            <input type="number" step="any" name="EVALUACIÓN.10_Excelente" required>
+
+            <label>EVALUACIÓN.11_Excelente</label>
+            <input type="number" step="any" name="EVALUACIÓN.11_Excelente" required>
+
+            <label>EVALUACIÓN.11_Promedio Bajo</label>
+            <input type="number" step="any" name="EVALUACIÓN.11_Promedio Bajo" required>
+        </div>
+
+        <!-- Columna 2 -->
+        <div class="form-column">
+            <label>EVALUACIÓN.12_No Adecuado</label>
+            <input type="number" step="any" name="EVALUACIÓN.12_No Adecuado" required>
+
+            <label>EVALUACIÓN.2_Extr. Inf. Medias</label>
+            <input type="number" step="any" name="EVALUACIÓN.2_Extr. Inf. Medias" required>
+
+            <label>EVALUACIÓN.4_NORMAL</label>
+            <input type="number" step="any" name="EVALUACIÓN.4_NORMAL" required>
+
+            <label>EVALUACIÓN.6_Muy Elevado</label>
+            <input type="number" step="any" name="EVALUACIÓN.6_Muy Elevado" required>
+
+            <label>EVALUACIÓN.7_EXCELENTE</label>
+            <input type="number" step="any" name="EVALUACIÓN.7_EXCELENTE" required>
+
+            <label>INTERPRETACION AGB_Reserva Calorica Normal</label>
+            <input type="number" step="any" name="INTERPRETACION AGB_Reserva Calorica Normal" required>
+
+            <label>RESULTADO IBIA/BILIO_Fuerza/Potencia</label>
+            <input type="number" step="any" name="RESULTADO IBIA/BILIO_Fuerza/Potencia" required>
+
+            <label>RESULTADO Indice Cural_Pierna larga o muslo corto</label>
+            <input type="number" step="any" name="RESULTADO Indice Cural_Pierna larga o muslo corto" required>
+
+            <label>RESULTADO Indice Cural_Pierna muy corta o muslo muy largo</label>
+            <input type="number" step="any" name="RESULTADO Indice Cural_Pierna muy corta o muslo muy largo" required>
+
+            <label>Resultado ICP_Constitución muy débil</label>
+            <input type="number" step="any" name="Resultado ICP_Constitución muy débil" required>
+        </div>
+
+        <div class="form-submit">
+            <button type="submit">🔍 Analizar Resultados</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultados de Predicción</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Resultados del Análisis</h1>
+
+        <table>
+            <tr>
+                <th>Modelo</th>
+                <th>Predicción</th>
+                <th>Probabilidades</th>
+            </tr>
+            {% for fila in tabla %}
+            <tr>
+                <td>{{ fila.modelo }}</td>
+                <td>{{ fila.pred }}</td>
+                <td>{{ fila.probs }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+
+        <div class="resultado-final">
+            <h2>🧠 Ensemble (voto mayoritario): {{ ensemble }}</h2>
+            <p>Confianza promedio (REDUCIDA): {{ confianza }}</p>
+        </div>
+
+        <a href="/">🔙 Volver al formulario</a>
+    </div>
+</body>
+</html>

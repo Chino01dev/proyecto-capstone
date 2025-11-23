@@ -1,0 +1,17 @@
+IMC,Indice Braquial (IBB),TIBIAL LATERAL,Talla,EVALUACIÓN IMC_Grado I de Sobrepeso,EVALUACIÓN.1_Metrocórmico Tronco Medio,EVALUACIÓN.10_Bueno,EVALUACIÓN.10_Excelente,EVALUACIÓN.11_Excelente,EVALUACIÓN.11_Promedio Bajo,EVALUACIÓN.12_No Adecuado,EVALUACIÓN.2_Extr. Inf. Medias,EVALUACIÓN.4_NORMAL,EVALUACIÓN.6_Muy Elevado,EVALUACIÓN.7_EXCELENTE,INTERPRETACION AGB_Reserva Calorica Normal,RESULTADO IBIA/BILIO_Fuerza/Potencia,RESULTADO Indice Cural_Pierna larga o muslo corto,RESULTADO Indice Cural_Pierna muy corta o muslo muy largo,Resultado ICP_Constitución muy débil
+-0.9019512514147883,-0.9110295535420408,0.48483196296153247,-0.17551005668424582,False,True,False,False,False,True,True,True,False,True,False,False,False,False,False,True
+0.8883225804696856,0.3546921248975454,-1.0627613352697958,-1.4404474021563023,True,True,False,False,True,False,False,True,False,True,False,False,False,False,True,False
+1.3777662856581503,1.8145373472559436,1.7422515177744893,1.2840330342450499,True,False,True,False,True,False,False,False,True,False,False,True,True,True,False,False
+0.9527254149495157,1.275092872431183,-1.0627613352697958,-1.3431445294276825,True,True,False,False,True,False,False,True,False,True,False,False,False,False,True,False
+0.6326706007350775,0.6567290674544555,-0.7403460648049355,0.27208315786740433,True,False,True,False,True,False,False,False,True,False,False,True,False,False,True,False
+-0.7851367470453208,-0.687521769480929,-0.7403460648049355,-0.6620244203273444,False,True,False,False,False,True,True,True,False,True,False,False,False,False,True,True
+-1.4631558544779764,-1.5300183966575733,1.0329379227517959,0.602912925144712,False,False,True,False,True,False,True,False,False,False,False,False,False,False,False,True
+-0.08112809634943086,0.45823854507791967,-0.7403460648049355,-1.0512359112418233,False,True,False,False,False,True,True,True,False,True,False,False,False,False,True,False
+-0.16835380152998938,-0.4813942175833745,0.0012090572642421264,-0.12685862031993597,False,True,True,False,True,False,True,True,False,False,False,False,False,False,True,False
+-0.4730019662877178,-0.47130524544863844,0.16241669249667226,-0.467418674870105,False,False,False,True,True,False,False,True,True,False,False,False,True,False,False,False
+-0.5941656437463322,-0.9091437066140259,-0.09551552387521503,-0.8566301657845838,False,True,False,False,False,True,True,True,False,True,False,False,False,False,False,False
+0.4286593560288696,0.37892965732495093,1.6777684636815162,1.965153143345388,False,False,True,False,True,False,True,False,True,True,False,False,False,False,False,False
+0.03780613809603584,0.29416834450078416,-1.0627613352697958,0.4083071796874725,False,False,True,False,True,False,True,False,True,True,False,True,False,False,True,False
+0.66230098298574,0.43649379684004036,1.5165608284490861,0.7002157978733317,True,False,False,True,True,False,False,False,True,False,False,True,True,False,False,False
+0.2591281657971877,0.5255667285107595,0.7105226522869356,1.0894272887878105,False,False,False,True,True,False,False,False,True,False,True,False,True,False,True,False
+2.167803321921886,2.411895036061318,-0.5791384295725054,-1.1096176348789946,False,True,False,False,True,False,False,True,False,True,False,False,False,False,False,False
