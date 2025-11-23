@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: tu-app-flask
+    env: python
+    region: oregon
+    plan: starter
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"
+    pythonVersion: "3.10"
